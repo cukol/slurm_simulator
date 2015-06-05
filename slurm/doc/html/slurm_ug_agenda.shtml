@@ -1,0 +1,871 @@
+<!--#include virtual="header.txt"-->
+
+<h1>Slurm User Group Meeting 2014</h1>
+
+<p>Hosted by the <a href="http:///www.cscs.ch">Swiss National Supercomputing Centre</a>
+
+
+<a name="agenda"><h1>Agenda</h1></a>
+
+<p>The 2014 Slurm User Group Meeting will be held on September 23 and 24
+in Lugano, Switzerland.
+The meeting will include an assortment of tutorials, technical presentations,
+and site reports.
+The <a href="#schedule">Schedule</a>  amd <a href="#abstracts">Abstracts</a>
+are shown below.</p>
+
+<p>The meeting will be held at the
+<a href="http://www.lugano-tourism.ch/en/129/default.aspx">
+Convention Centre Lugano</a>, Lugano, Switzerland.</p>
+
+
+<a name="registration"><h1>Registration</h1></a>
+<p>The conference cost is $350 per person for registration by 23 August and
+$400 per person for late registration.
+This includes presentations, tutorials, lunch and snacks on both days,
+plus dinner on Tuesday evening.<br>
+<a href="https://www.eventbrite.com/e/slurm-user-group-meeting-2014-tickets-12322056603">Register here</a>.</p>
+
+
+<a name="hotels"><h1>Hotel Information</h1></a>
+<p>Hotels may be booked through the Lugano Convention Centre (Palazzo dei Congressi).<br>
+<a href="https://www.aec-internet.it/booking_engine/prenota_congresso.htm?graph_be=4&n_tappe=1&headvar=ok&lingua_int=eng&id_stile=7434&id_congresso=54&id_canale=704">Hotel booking</a>.</p>
+
+
+<a name="schedule"><h1>Schedule</h1></a>
+
+<h2>23 September 2014</h2>
+
+<table width="100%" border=1 cellspacing=0 cellpadding=4>
+
+<tr>
+  <th width="10%">Time</th>
+  <th width="15%">Theme</th>
+  <th width="30%">Speaker</th>
+  <th width="45%">Title</th>
+ </tr>
+
+<tr>
+  <td bgcolor="#F0F1C9">08:00 - 08:30</td>
+  <td colspan="3" bgcolor="#F0F1C9">Registration </td>
+ </tr>
+
+<tr>
+  <td>08:30 - 08:40</td>
+  <td>Welcome</td>
+  <td>Colin McMurtrie (CSCS)</td>
+  <td>Welcome to Slurm User Group Meeting</td>
+</tr>
+
+<tr>
+  <td>08:40 - 09:30</td>
+  <td>Keynote</td>
+  <td>Prof. Felix Sch&uuml;rmann (EPFL)</td>
+  <td>Role and Challenges of Interactive Supercomputing in the Human Brain Project</td>
+</tr>
+
+<tr>
+  <td bgcolor="#F0F1C9">09:30 - 09:45</td>
+  <td colspan="3" bgcolor="#F0F1C9">Break</td>
+</tr>
+
+<tr>
+  <td>09:45 - 10:15</td>
+  <td>Technical</td>
+  <td>Jacob Jenson (SchedMD), Yiannis Georgiou (Bull)</td>
+  <td>Overview of Slurm Versions 14.03 and 14.11</td>
+</tr>
+<tr>
+  <td>10:15 - 10:45</td>
+  <td>Tutorial</td>
+  <td>Michael Jennings, Jacqueline Scoggins (LBL)</td>
+  <td>Warewulf Node Health Check</td>
+</tr>
+  <td>10:45 - 11:15</td>
+  <td>Technical</td>
+  <td>Yiannis Georgiou (BULL), David Glesser (BULL),
+  Matthieu Hautreux (CEA), Denis Trystram (Univ. Grenoble-Alpes)</td>
+  <td>SLURM processes isolation</td>
+</tr>
+<tr>
+  <td>11:15 - 11:45</td>
+  <td>Technical</td>
+  <td>Rod Schultz (BULL), Martin Perry (BULL),
+  Yiannis Georgiou (BULL), Danny Auble (SchedMD), Morris Jette (SchedMD),
+  Matthieu Hautreux (CEA)</td>
+  <td>Improving forwarding logic in Slurm</td>
+</tr>
+  <td bgcolor="#F0F1C9">11:45 - 12:45</td>
+  <td colspan="3" bgcolor="#F0F1C9">Lunch
+</tr>
+
+<tr>
+  <td>12:45 - 13:45</td>
+  <td>Tutorial</td>
+  <td>Morris Jette (SchedMD)</td>
+  <td>Tuning Slurm Scheduling for Optimal
+  Responsiveness and Utilization</td>
+</tr>
+<tr>
+  <td>13:45 - 14:15</td>
+  <td>Technical</td>
+  <td>Carles Fenoy (BSC)</td>
+  <td>Improving HPC applications scheduling with
+  predictions based on automatically-collected historical data</td>
+<tr>
+  <td>14:15 - 14:45</td>
+  <td>Technical</td>
+  <td>Filip Skalski, Krzysztof Rzadca (University of
+  Warsaw)</td>
+  <td>Fair Scheduler for Burst Submissions of
+  Parallel Job</td>
+</tr>
+
+<tr>
+  <td bgcolor="#F0F1C9">14:45 - 15:00</td>
+  <td colspan="3" bgcolor="#F0F1C9">Break</td>
+</tr>
+
+<tr>
+  <td>15:00 - 15:30</td>
+  <td>Technical</td>
+  <td>Yiannis Georgiou (BULL), David Glesser (BULL),
+  Matthieu Hautreux (CEA), Denis Trystram (Univ. Grenoble-Alpes)</td>
+  <td>Introducing Power-capping in Slurm scheduling</td>
+</tr>
+
+<tr>
+  <td>15:30 - 16:00</td>
+  <td>Technical</td>
+  <td>David Glesser (BULL), Yiannis Georgiou (BULL),
+  Denis Trystram (Univ. Grenoble-Alpes)</td>
+  <td>Introducing Energy based fair-share scheduling</td>
+</tr>
+<tr>
+  <td>16:00 - 16:30</td>
+  <td>Technical</td>
+  <td>Aamir Rashid (Terascala)</td>
+  <td>Data movement between Lustre and Enterprise
+  storage systems</td>
+</tr>
+<tr>
+  <td>16:30 - 17:00</td>
+  <td>Technical</td>
+  <td>Sergio Iserte, Adrian Castello, Rafael Mayo,
+    Enrique S. Quintana-Ort (Universitat Jaume I de Castello),
+    Federico Silla, Jose Duato (Universitat Politecnica de Valencia)</td>
+  <td>Extending Slurm with Support for Remote GPU
+  Virtualization</td>
+</tr>
+
+<tr>
+  <td bgcolor="#F0F1C9">19:00 - </td>
+  <td bgcolor="#F0F1C9">Dinner</td>
+  <td colspan="2" bgcolor="#F0F1C9">Restaurant Pizzeria Cantinone<br>
+Piazza Cioccaro 8<br>
+Lugano<br>
+tel +41(0)91 923 10 68</td>
+</tr>
+</table>
+
+<h2>24 September 2014</h2>
+
+<table width="100%" border=1 cellspacing=0 cellpadding=4>
+
+  <tr>
+    <th width="10%">Time</th>
+    <th width="15%">Theme</th>
+    <th width="30%">Speaker</th>
+    <th width="45%">Title</th>
+  </tr>
+
+  <tr>
+    <td bgcolor="#F0F1C9">08:00 - 08:30</td>
+    <td colspan="3" bgcolor="#F0F1C9">Registration</td>
+  </tr>
+
+  <tr>
+    <td>08:30 - 09:00</td>
+    <td>Technical</td>
+    <td>Jacqueline Scoggins (Lawrence Berkeley
+    National Lab)</td>
+    <td>Complex environment migration from
+    Moab/Torque to Slurm</td>
+  </tr>
+  <tr>
+    <td>09:00 - 09:30</td>
+    <td>Technical</td>
+    <td>Huub Stoffers (SURFsara)</td>
+    <td>A budget checking / budget tracking plug-in
+    for SLURM</td>
+  </tr>
+
+  <tr>
+    <td>09:30 - 10:00</td>
+    <td>Technical</td>
+    <td>Ryan Cox, Levi Morrison (Brigham Young
+    University)</td>
+    <td>Fair Tree: Fairshare Algorithm for Slurm</td>
+  </tr>
+
+  <tr>
+    <td bgcolor="#F0F1C9">10:00 - 10:15</td>
+    <td colspan="3" bgcolor="#F0F1C9">Break</td>
+  </tr>
+
+  <tr>
+    <td>10:15 - 10:45</td>
+    <td>Technical</td>
+    <td>Thomas Cadeau (BULL), Yiannis Georgiou
+    (BULL), Matthieu Hautreux (CEA)</td>
+    <td>Integrating Layouts Framework in Slurm</td>
+  </tr>
+
+  <tr>
+    <td>10:45 - 11:15</td>
+    <td>Technical</td>
+    <td>Emmanuel Jeannot, Guillaume Mercier, Ad&egrave;le
+    Villiermet (INRIA)</td>
+    <td>Topology-aware Resource Selection with Slurm</td>
+  </tr>
+
+  <tr>
+    <td>11:15 - 11:45</td>
+    <td>Technical</td>
+    <td>Stephen Trofinoff (CSCS)</td>
+    <td>Exploring the implementation of several key
+    Slurm Inter-cluster features</td>
+  </tr>
+  <tr>
+    <td>11:45 - 12:15</td>
+    <td>Technical</td>
+    <td>Morris Jette and Danny Auble (SchedMD)</td>
+    <td>Slurm Native Workload Management on Cray Systems</td>
+  </tr>
+  <tr>
+    <td bgcolor="#F0F1C9">12:15 - 13:15</td>
+    <td colspan="3" bgcolor="#F0F1C9">Lunch</td>
+  </tr>
+
+  <tr>
+    <td>13:15 - 13:45</td>
+    <td>Technical</td>
+    <td>Morris Jette (SchedMD), Yiannis Georgiou (Bull)</td>
+    <td>Slurm Roadmap</td>
+  </tr>
+  <tr>
+    <td>13:45 - 14:05</td>
+    <td>Site Report</td>
+    <td>Magnus Jonsson (Ume&aring; University)</td>
+    <td>Ume&aring; University Site Report</td>
+  </tr>
+  <tr>
+    <td>14:05 - 14:25</td>
+    <td>Site Report</td>
+    <td>Marcin Stolarek and Dominik Bartkiewicz (Interdisciplinary Centre
+    for Mathematical and  Computational Modelling (ICM), University of
+    Warsaw, Poland)</td>
+    <td>University of Warsaw Site Report</td>
+  </tr>
+  <tr>
+    <td>14:25 - 14:45</td>
+    <td>Site Report</td>
+    <td>Andrew Elwell (iVEC)</td>
+    <td>iVEC Site Report</td>
+  </tr>
+  <tr>
+    <td>14:45 - 15:05</td>
+    <td>Site Report</td>
+    <td>Matthieu Hautreux (CEA)</td>
+    <td>CEA Site Report</td>
+  </tr>
+
+  <tr>
+    <td bgcolor="#F0F1C9">15:05 - 15:20</td>
+    <td colspan="3" bgcolor="#F0F1C9">Break</td>
+  </tr>
+
+  <tr>
+    <td>15:20 - 15:40</td>
+    <td>Site Report</td>
+    <td>Massimo Benini (CSCS)</td>
+    <td>CSCS Site Report</td>
+  </tr>
+  <tr>
+    <td>15:40 - 16:00</td>
+    <td>Site Report</td>
+    <td>Janne Blomqvist, Ivan Degtyarenko, Mikko
+      Hakala (Aalto University)</td>
+    <td>Aalto University Site Report</td>
+  </tr>
+  <tr>
+    <td>16:00 - 16:20</td>
+    <td>Site Report</td>
+    <td>Tim Wickberg (George Washington University)</td>
+    <td>George Washington University Site Report</td>
+  </tr>
+  <tr>
+    <td>16:20 - 16:30</td>
+    <td>Closing</td>
+    <td> Tim Wickberg (George Washington University),
+      Morris Jette (SchedMD)</td>
+    <td>Closing/Invitation to Slurm User Group
+    Meeting 2015</td>
+  </tr>
+
+</table>
+
+<br><br>
+<a name="abstracts"><h1>Abstracts</h1></a>
+
+<h2>September 23, 2014</h2>
+
+<h3>Keynote: Role and Challenges of Interactive Supercomputing in the Human Brain Project</h3>
+<p>Prof. Felix Sch&uuml;rmann (Ecole Polytechnique F&eacute;d&eacute;rale de Lausanne)</p>
+<p>Dr. Felix Sch&uuml;rmann is adjunct professor at the Ecole Polytechnique
+F&eacute;d&eacute;rale de Lausanne, co-director of the Blue Brain Project
+and involved in several research challenges of the European Human Brain Project.</p>
+
+<h3>Overview of Slurm Versions 14.03 and 14.11</h3>
+<p>Jacob Jenson (SchedMD), Yiannis Georgiou (Bull)</p>
+<p>This presentation will describe new capabilities provided in Slurm
+  versions 14.03 (released March 2014) and planned for version 14.11
+  (to be released in November 2014). Major enhancements in version 14.03
+  include:</p>
+<ul>
+  <li>Access control options for partitions</li>
+  <li>Load-based scheduling</li>
+  <li>Reservation of cores for system use</li>
+  <li>Native support for Cray systems</li>
+</ul>
+<p>Major enhancements planned for version 14.11 include:</p>
+<ul>
+  <li>Support for heterogeneous generic resources</li>
+  <li>Support for non-consumable generic resources</li>
+  <li>Automatic job requeue based upon exit code</li>
+  <li>User control over CPU governor</li>
+  <li>Communication gateways</li>
+  <li>New options for job scheduling and task layout</li>
+  <li>Improved job array support</li>
+</ul>
+
+<h3>Warewulf Node Health Check</h3>
+<p>Michael Jennings, Jacqueline Scoggins (Lawrence Berkeley
+    National Lab)</p>
+<p>Since its release to the HPC community in 2011, the Warewulf Node
+  Health Check system has gained wide acceptance across the industry
+  and has become the de facto standard community solution for compute
+  node health checking.  It provides a complete, optimized framework
+  for creating and executing node-level checks and already comes with
+  more than 40 of its own pre-written checks.  It fully supports SLURM
+  (as well as other popular schedulers & resource managers) and can
+  directly error/drain failed nodes and subsequently return them to
+  service once fixed.  Having been used in production at Lawrence
+  Berkeley National Laboratory since late-2010, Warewulf NHC has
+  evolved and matured to become a vital asset in maximizing the
+  integrity and reliability of high-performance computational
+  resources.</p>
+
+<p>In this talk, we'll discuss what makes Warewulf NHC such a unique
+  and robust solution to the problem of compute node health, look at
+  the feature set of NHC and its integration with Slurm, examine LBNL's
+  configuration and utilization of Slurm and NHC with tips on how to
+  quickly deploy it in your environment, and survey many of the
+  available checks that are supplied out-of-the-box. Time permitting, a
+  brief introduction to writing custom or site-specific checks may also
+  be included.</p>
+
+<h3>SLURM processes isolation</h3>
+<p>Martin Perry (BULL), Bill Brophy (BULL), Yiannis Georgiou (BULL),
+  Danny Auble (SchedMD), Morris Jette (SchedMD), Matthieu Hautreux (CEA)</p>
+<p>On the compute nodes Slurm related processes and threads share the
+  resources (CPUs, Memory) with the applications. Even if the overhead
+  of slurm processes and threads is not really important, there could
+  be interference and de-synchronization in cases where the application
+  makes heavy usage of resources.</p>
+<p>The goal is to automatically confine the slurm related process and
+  threads (slurmd, slurmstepd, jobacct, etc) on particular cores and
+  memory of the compute node. This will limit the interference of slurm
+  on the application execution and may improve the performance of the
+  applications. We present the design choices along with the developed
+  code and we provide experiments and observations.</p>
+
+<h3>Improving forwarding logic in Slurm</h3>
+<p>Rod Schultz (BULL), Martin Perry (BULL), Yiannis Georgiou (BULL),
+  Danny Auble (SchedMD), Morris Jette (SchedMD), Matthieu Hautreux (CEA)</p>
+<p>In this presentation we describe the motivations and design of the
+  communication logic re-factoring in Slurm in order to provide
+  partially deterministic direct and reverse tree communications. The
+  goals of these developments are to:</p>
+<ul>
+  <li>Better handle the mapping between the trees of communication
+    used by Slurm and the existing physical network connections in
+    order to improve performance.</li>
+  <li> Provide the ability to aggregate messages directed to the
+    controller in order to limit the amount of RPC that have to be
+    managed simultaneously so that we can diminish communication
+    bottlenecks.</li>
+</ul>
+
+<h3>Tuning Slurm Scheduling for Optimal Responsiveness and Utilization</h3>
+<p>Morris Jette (SchedMD)</p>
+<p>Slurm supports a multitude of scheduling options to achieve
+  administrative goals for responsiveness, utilization, and service
+  level under a wide assortment of workloads. Many of these options
+  have been added in the past year and are still little known. This
+  tutorial will present an overview of scheduling configuration options
+  for job prioritiziation, Quality of Service, backfill scheduling, job
+  preemption, and gang scheduling. Advice will be provided on how to
+  analyze current workload and tune the system.</p>
+
+<h3>Improving HPC applications scheduling with predictions based on
+  automatically-collected historical data</h3>
+<p>Carles Fenoy (BSC)</p>
+<p>This work analyses the benefits of a system, which being able to
+  get real performance data from jobs, uses it for future scheduling in
+  order to improve the performance of the applications with minimal
+  user input. The study is focused on the memory bandwidth usage of
+  applications and its impact on the running time when sharing the same
+  node with other jobs. The data used for scheduling purposes is
+  extracted from the hardware counters during the application execution
+  identified by a tag specified by <th></th>e user. This information allows
+  the system to predict the resource requirements of a job and allocate
+  it more effectively.</p>
+
+<h3>Fair Scheduler for Burst Submissions of Parallel Job</h3>
+<p>Filip Skalski, Krzysztof Rzadca (Institute of Informatics,
+  University of Warsaw, Poland)</p>
+<p>Large-scale HPC systems are shared by many users. Beside system's
+  efficiency, the main goal of the scheduler is to serve users
+  according to a scheduling policy. The fair-share algorithm strives
+  to build schedules in which each user achieves her target average
+  utilization rate. This method was fine when each user had just a few
+  jobs. However, modern workloads are often composed of campaigns:
+  many jobs submitted by the same user at roughly the same time (e.g.
+  bag-of-tasks or Slurm's job arrays). For such workloads, fair-share
+  is not optimal because users frequently have similar utilization
+  metrics and, in such situations, the schedule switches between
+  users, executing just a few jobs of each one of them.  However, it
+  would be more efficient to assign the maximum number of resources to
+  one user per time.</p>
+<p>OStrich, our scheduling algorithm, is optimized for campaigns of
+  jobs. OStrich maintains a virtual schedule that partitions resources
+  between users' workloads according to pre-defined shares. The
+  virtual schedule drives the allocation of the real processors.</p>
+<p>We implemented OStrich as a priority plugin for SLURM and performed
+  experimental evaluation on an emulated cluster. Comparing with
+  fair-share (the multifactor plugin), OStrich schedules have lower
+  slowdowns while maintaining equal system utilization. Moreover,
+  OStrich plugin uses normalized shares similarly to the multifactor
+  plugin, therefore it doesn't require any administrative changes other
+  than a simple change to the Slurm configuration file. We think that
+  OStrich is a viable alternative to fair-share in supercomputers with
+  campaign-like workloads.</p>
+
+<h3>Introducing Power-capping in Slurm scheduling</h3>
+<p>Yiannis Georgiou (BULL), David Glesser (BULL), Matthieu Hautreux
+  (CEA), Denis Trystram (Univ. Grenoble-Alpes)</p>
+<p>The last decades have been characterized by an ever growing
+  requirement in terms of computing and storage resources. This
+  tendency has recently put the pressure on the ability to efficiently
+  manage the power required to operate the huge amount of electrical
+  components associated with state-of-the-art computing and data
+  centers. The power consumption of a supercomputer needs to be
+  adjusted based on varying power budget or electricity
+  availabilities. As a consequence, Resource and Job Management Systems
+  have to be adequately adapted in order to efficiently schedule jobs
+  with optimized performance while limiting power usage whenever
+  needed. Our goal is to introduce a new power consumption adaptive
+  scheduling strategy that provides the capability to autonomously
+  adapt the executed workload to the available or planned power
+  budget. The originality of this approach relies on a combination of
+  DVFS (Dynamic Voltage and Frequency Scaling) and node shut-down
+  techniques.</p>
+
+<h3>Introducing Energy based fair-share scheduling</h3>
+<p>David Glesser (BULL), Yiannis Georgiou (BULL),
+  Denis Trystram (Univ. Grenoble-Alpes)</p>
+<p>Energy consumption has become one of the most important parameters
+  in High Performance  computing platforms. Fair-share scheduling is a
+  widely used technique in job schedulers to prioritize jobs,
+  depending to past users allocations. In practice this technique is
+  mainly based on CPU-Time usage. Since power is managed as a new type
+  of resources by Slurm and energy consumption can be charged
+  independently, there is a real need for fairness in terms of energy
+  consumption.</p>
+<p>This presentation will introduce fair-share scheduling based on
+  past energy usage in Slurm. The new technique will allow users that
+  have optimized their codes to be more energy efficient or make better
+  usage of DVFS techniques to improve the stretch times of their
+  workload.</p>
+
+<h3>Data movement between Lustre and Enterprise storage systems</h3>
+<p>Aamir Rashid (Terascala)</p>
+<p>High Performance Data movement is a requirement and a challenge for
+  HPC (large data sets, high rate of processing, over-provisioning,
+  compliance, etc.). An example is the data movement inherent in HPC
+  workflows like genome sequencing. This problem belongs to application
+  users and is related to HSM. If users are able to effectively manage
+  data movement tasks as part of their workflows then the IT storage
+  management problem is significantly diminished. However, to
+  accomplish this, users need tools that they currently do not
+  have.</p>
+<p>Terascala has developed a new product, Intelligent Storage Bridge
+  (ISB), for effective data movement between a Lustre appliance and
+  Enterprise storage systems. ISB is a highly available, scalable and a
+  policy driven engine that is geared towards end users and automated
+  workflows. This talk will discuss the features of SLURM that are most
+  important in a user driven data management solution and highlight
+  lessons learned.</p>
+
+<h3>Extending Slurm with Support for Remote GPU Virtualization</h3>
+<p>Sergio Iserte, Adrian Castello, Rafael Mayo, Enrique
+  S. Quintana-Ort (Universitat Jaume I de Castello) Federico Silla, Jose Duato
+  (Universitat Politecnica de Valencia)</p>
+<p>Remote GPU virtualization offers an alluring means to increase
+  utilization of the GPUs installed in a cluster, which can
+  potentially yield a faster amortization of the total costs of
+  ownership (TCO). Concretely, GPU virtualization logically decouples
+  the GPUs in the cluster from the nodes they are located in, opening
+  a path to share the accelerators among all the applications that
+  request GPGPU services, independently of whether the node(s) these
+  applications are mapped to are equipped with a GPU or not. In this
+  manner the amount of these accelerators can be reduced, and their
+  utilization rate can be significantly improved.</p>
+<p>Slurm can use a generic resource plug-in (GRes) to manage
+  GPUs. With this solution the hardware accelerators, like the GPUs,
+  can only be accessed by the job that is in execution on the node to
+  which the GPU is attached. This is a serious constraint for remote
+  GPU virtualization technologies, which aim to provide a completely
+  user-transparent access to all GPUs in cluster, independently of the
+  specific locations of the application node and the GPU node.</p>
+<p>In this work we introduce a new type of resource in Slurm, the
+  remote GPU (rGPU), in order to gain access from any application node
+  to any GPU node in the cluster using rCUDA as the remote GPU
+  virtualization solution. With this new resource, users can access
+  all GPUs needed for their jobs, a. Slurm schedules the task taking
+  into account all the GPUs available in the whole cluster. In other
+  words, introducing GPU-virtualization aware mechanism into SLURM
+  allow applications to execute CUDA kernels in all GPUs,
+  independently of their location.</p>
+
+<h2>September 24, 2014</h2>
+
+<h3>Complex environment  migration from Moab/Torque to Slurm</h3>
+<p>Jacqueline Scoggins (Lawrence Berkeley National Lab)</p>
+<p>In most HPC environments admins are faced with setting up a
+  scheduling  environment based on the individual or institutional
+  cluster  requirements.  Sites that have multiple clusters may have
+  to install the  same scheduler on each system but the policies and
+  functionality might  be different between the various installations.
+  But as the number of  clusters grow and the policies and
+  requirements change this can become  very difficult to manage.  How
+  can this be done simpler without the  integration nightmares?  At
+  LBNL we merged our distinct resources under a
+  common infrastructure to leverage a uniform support architecture and
+  scavenge unused CPU cycles and expand into a condo-cluster model
+  using one scheduler.  We previously did this using Moab/Torque for
+  several  years but recently migrated to Slurm.  The challenge was
+  how to make. Slurm meet the exceedingly arduous needs of our
+  environment –  Accounting, backfill, reservations, fairshare, QOS,
+  Partitions,  Multifactor job prioritization and the ability to have
+  limits set on a  user/group level bases so that the individual and
+  institutional clusters  would not affect each other. Considering our
+  extremely complicated environment and the many production resources
+  and users that were  impacted by this change, we took a very careful
+  and diligent approach to  the migration and it resulted with minimal
+  adverse effects on our user  base and support engineers. This talk
+  will be focused on our method and  experiences of this
+  migration.</p>
+
+
+<h3>A budget checking / budget tracking plug-in for SLURM</h3>
+<p>Huub Stoffers (SURFsara)</p>
+<p>We propose to design and implement a plug-in for the Slurm control
+  daemon that is capable of calculating “job cost” on the basis of job
+  resource usage and that keeps track of budgets, registered per
+  account, as they are spent by running jobs. SLURM does a good job
+  logging the run time of jobs and their usage of resources during
+  that time interval. It however does not know how to reduce the usage
+  of resources to the spending of budget that was granted to
+  projects.<p>
+<p>Traditionally, this is not the responsibility of the batch system
+  but of the site's accounting system, because the decision which
+  resource(s) to account, and at what price, are very site
+  specific. Moreover, translating the resource usage of a job to
+  budget reductions is most conveniently done after job completion,
+  when the resource usage is final and completely known. Then, the
+  "raw" data can simply be handed over to the accounting system for
+  subsequent interpretation. But this division of labor and its
+  associated sequence of events have a serious disadvantage:
+  Overspending by projects is only noticed when it has already
+  happened.</p>
+<p>Projects running on our compute facilities generally can do so
+  because they have successfully passed through a review process and
+  were granted a budget to be spent on compute resources on behalf of
+  the project. Sometimes it is possible to get a prolongation for a
+  project or to shift an amount of budget between two projects granted
+  to the same primary investigator. But funding agencies are quite
+  strict. They do not wish to tolerate that any project spends more
+  budget then it was formally granted.</p>
+<p>New jobs likely to cost more than their project’s remaining budgets
+  simply should not be dispatched. SLURM already has the concept that
+  a job is run under an account that is associated with one or more
+  users. A budget should be associated with such an account too. “Job
+  cost” is presumably highly dependent on the actual run time of the
+  job. When a job is about to be dispatched, its maximum “job cost”
+  must be calculated, based on its attributes, such as number of cores
+  or nodes, the partition, its maximum wall clock time. The maximum
+  job cost must be temporarily claimed, subtracted from the project’s
+  budget, for as long as the job runs. When the job is finished the
+  actual job cost can be calculated, permanently subtracted from the
+  budget while at the same time, the temporarily claimed maximum “job
+  cost” is given back – i.e. added again.</p>
+<p>Preventive, “live”, budget checking during each job dispatch
+  presently can be implemented, or at least approximated, by a
+  prologue script. But this involves substantial sacct and squeue
+  querying and subsequent calculations based on the returned results
+  that can strain the system much more that directly keeping track of
+  a project’s budget. Budgets are typically specified in terms of
+  abstract "system billable units" that can be spent by using,
+  discrete quantities the resources that the compute facility has to
+  offer. The number of core hours is usually an important resource
+  that is accounted, but there may be differences in pricing,
+  e.g. between the core hours on nodes with or without GPU support, or
+  with lesser or larger quantities of memory per core. Other
+  consumable resources, such as the time that particular software
+  licenses are checked out by a job, may be accounted too. In Slurm it
+  is customary to use partitions to differentiate between
+  heterogeneously equipped nodes. Clearly, the relative pricing of
+  core hours of different partitions should be a configurable in the
+  configuration file of the plug-in. The actual details of “Job cost”
+  calculation will remain site specific and hence should be
+  concentrated in a single jobcost function. Hooks should be added for
+  it to be called and process its outcome at  job dispatch time and –
+  for a job that is dispatched – at  job completion time.</p>
+
+<h3>Level-based job prioritization</h3>
+<p>Ryan Cox and Levi Morrison (Brigham Young University)</p>
+<p>We will begin by highlighting some problems with existing fairshare
+   algorithms.  We will then present about our new Fair Tree algorithm which
+   is designed to avoid these issues.</p>
+<p>Fair Tree prioritizes users such that if accounts A and B are siblings and
+   A has a higher fairshare factor than B, all children of A will have higher
+   fairshare factors than all children of B. The algorithm uses classic computer
+   science techniques to achieve this goal. First, the traditional fairshare
+   equation, 2**-(Usage/Shares), is used but it only considers an association
+   and its siblings, rather than including the effect of parents or children
+   in the equation. It then sorts the association tree by fairshare value to
+   create a rooted plane tree and uses a depth-first traversal to rank users
+   in the order they are found. This ranking is used to create the final
+   fairshare factor.</p>
+
+<h3>Integrating Layouts Framework in Slurm</h3>
+<p>Thomas Cadeau (BULL), Yiannis Georgiou (BULL), Matthieu Hautreux (CEA)</p>
+<p>Supercomputers become more powerful but more complicated to
+  manage. Resources  hide information that can be taken into account
+  for more efficient management. Those characteristics may impact the
+  way resources should be used and may provide valuable information (
+  such as power consumption, network details, etc) that can be used to
+  optimize automatic decisions such as Scheduling, Energy Efficiency,
+  Placement, Scalability.</p>
+<p>The layouts framework has been introduced in the last SLURM User
+  Group. This presentation will introduce a new API that has been
+  developed to get, update and consolidate information described by
+  layouts so that they can be used wherever needed internally in
+  SLURM. Information such as the placement of each resource in the
+  actual infrastructure can be taken into account for more efficient
+  scheduling of jobs. Information such as the power consumption of
+  resources can be taken into account for power aware scheduling.</p>
+<p>Furthermore a new set of scontrol options will be presented to
+  enable users and administrators to dynamically modify and display
+  layouts information.</p>
+
+<h3>Topology-aware Resource Selection with Slurm</h3>
+<p>Emmanuel Jeannot, Guillaume Mercier, Ad&egrave;le Villiermet (INRIA)</p>
+<p>Remote GPU virtualization offers an alluring means to increase
+  utilization of the GPUs installed in a cluster, which can
+  potentially yield a faster amortization of the total costs of
+  ownership (TCO). Concretely, GPU virtualization logically decouples
+  the GPUs in the cluster from the nodes they are located in, opening
+  a path to share the accelerators among all the applications that
+  request GPGPU services, independently of whether the node(s) these
+  applications are mapped to are equipped with a GPU or not. In this
+  manner the amount of these accelerators can be reduced, and their
+  utilization rate can be significantly improved.</p>
+<p>Slurm can use a generic resource plug-in (GRes) to manage
+  GPUs. With this solution the hardware accelerators, like the GPUs,
+  can only be accessed by the job that is in execution on the node to
+  which the GPU is attached. This is a serious constraint for remote
+  GPU virtualization technologies, which aim to provide a completely
+  user-transparent access to all GPUs in cluster, independently of the
+  specific locations of the application node and the GPU node.</p>
+<p>In this work we introduce a new type of resource in Slurm, the
+  remote GPU (rGPU), in order to gain access from any application node
+  to any GPU node in the cluster using rCUDA as the remote GPU
+  virtualization solution. With this new resource, users can access
+  all GPUs needed for their jobs, a. Slurm schedules the task taking
+  into account all the GPUs available in the whole cluster. In other
+  words, introducing GPU-virtualization aware mechanism into SLURM
+  allow applications to execute CUDA kernels in all GPUs, independently of their
+  location.</p>
+
+<h3>Exploring the implementation of several key Slurm Inter-cluster
+  features</h3>
+<p>Stephen Trofinoff (CSCS)</p>
+<p>Over the course of several years, both at our site (CSCS) and at
+  others of which we were told, various instances have arisen where
+  there was a need for some inter-cluster Slurm features.  These
+  features would simplify or in some cases enable use cases for our
+  various computing facilities and potentially make administering them
+  easier.  One prominent such request, was for the ability to chain a
+  job to one or more jobs on a remote Slurm cluster.  These features,
+  of course, do not currently exist or are limited in their scope.
+  For instance, a job can be submitted to a remote Slurm cluster but
+  can not be "chained" to a job on another cluster since one Slurm
+  cluster's controller has no knowledge of the jobs of another.
+  Therefore, after various discussions, it was decided to start a
+  small project at our site to explore the potential implementation of
+  some of these features. The project is a work-in-progress.</p>
+<p>This paper and the corresponding presentation will discuss some of
+  the work done thus far.  This includes specifying the particular
+  features chosen for examination and any issues related to their
+  implementation.</p>
+
+<h3>Slurm Native Workload Management on Cray Systems</h3>
+<p>Morris Jette and Danny Auble (SchedMD)</p>
+<p>Cray’s Application Level Placement Scheduler (ALPS) software has
+  recently been refactored to expose low level network management
+  interfaces in a new library. Slurm is the first workload manager to
+  utilize this new Cray infrastructure to directly manage network
+  resources and launch applications without ALPS. New capabilities
+  provided by Slurm include the ability to execute multiple jobs per
+  node, the ability to execute many applications within a single job
+  allocation (ALPS reservation), greater flexibility in scheduling,
+  and higher throughput without sacrificing scalability or
+  performance. This presentation includes a description of ALPS
+  refactoring, new Slurm plugins for Cray systems, and the changes in
+  functionality provided by this new architecture.</p>
+
+<h3>Slurm RoadMap</h3>
+<p>Morris Jette (SchedMD), Yiannis Georgiou (Bull)</p>
+<p>Slurm long-term development remains focused on the needs of high
+  performance computing. The Slurm roadmaps continues to evolve as a
+  greater understanding of unique Exascale computer requirements
+  develops. For example, Exascale computers may well contain tens of
+  thousands of compute nodes, which necessitates changes in Slurm
+  communications infrastructure. Exascale power consumption will need
+  to be carefully regulated with power capping, throttling the rate of
+  change and managing the workload to maximize system
+  utilization. This presentation will describe upcoming Slurm
+  development plans.</p>
+
+<h3>Ume&aring; University Site Report</h3>
+<p>Magnus Jonsson (Ume&aring; University)<p>
+<p>Use of SPANK plugins to create a private temporary file systems for
+  each job. This eliminates interference between jobs without the need
+  to obey the TMPDIR environment variable. The module is using the
+  features of private namespace/mount --bind in Linux.</p>
+
+<h3>University of Warsaw Site Report</h3>
+<p>Marcin Stolarek and Dominik Bartkiewicz (Interdisciplinary Centre for
+  Mathematical and Computational Modelling (ICM), University of Warsaw, Poland)</p>
+<ul>
+  <li>Our own SPANK plugins using unshare system call limit lustre
+    availability for job</li>
+  <li>SPANK plugin + prologue/epilogue preparing separate /tmp
+    directory</li>
+  <li>Job submit plugin which checks if job specification is "sane"</li>
+  <li>Our work on integration of Slurm with middlewares in European and
+    Polish grid infrastructures.</li>
+</ul>
+
+<h3>iVEC Site Report</h3>
+<p>Andrew Elwell (iVEC)</p>
+<p>iVEC (An unincorporated joint venture between CSIRO, Curtin
+  University, Edith Cowan University, Murdoch University and the
+  University of Western Australia and is supported by the Western
+  Australian Government) provides supercomputing facilities and
+  expertise to the research, education and industrial communities. Its
+  new (2013) purpose built computing centre (the Pawsey Centre) houses
+  several Cray XC30 systems as well as 6TB SGI UV2000, all connected
+  via infiniband to multi-petabyte disk storage systems.</p>
+<p>Although initially deployed with PBS Pro, senior management
+  indicated that moving to Slurm as a unified centre-wide scheduler
+  would be a good idea. This site report describes the issues faced by
+  an operations team new to Slurm and the configuration choices that
+  were made within the site.</p>
+<p>Pawsey infrastructure runs with a single slurmdbd instance on KVM,
+  with five different clusters using this as the accounting
+  repository. The clusters are:</p>
+<ul>
+  <li>Magnus, a Cray XC30 with 208 nodes, 2 external login nodes and 2
+    data mover nodes.</li>
+  <li>Galaxy, a Cray XC30 with 472 nodes, 2 external login nodes, 2 data
+    mover nodes and 16 'ingest' nodes</li>
+  <li>Chaos, a small test and development XC30 but without any external
+    nodes</li>
+  <li>Zythos, the SGI UV2000 with 4 GPU cards</li>
+  <li>Pawsey, used as a generic cluster to support 'copyq'
+    partitions.</li>
+</ul>
+<p>Because of the interaction between Slurm and ALPS/BASIL (the Cray
+  node alllocation system) the cray-aware slurm binaries were compiled
+  separately to the rest of the site (which uses a mixture of SLES and
+  CentOS) with a patched 2.6.6 and 2.6.9 being deployed. Linux cgroups
+  were used to control user access within shared nodes.</p>
+<p>The report also covers some of the issues the users faced when
+  migrating from PBS Pro, and the quirks associated with running on
+  external login nodes with interactive jobs. Finally it describes
+  some of the user facing reporting still under development</p>
+
+<h3>CEA Site Report</h3>
+<p>Matthieu Hautreux (CEA)</p>
+<p>CEA Site Report</p>
+
+<h3>CSCS Site Report</h3>
+<p>Massimo Benini (CSCS)</p>
+<p>CSCS Site Report</p>
+
+<h3>Aalto University Site Report</h3>
+<p>Janne Blomqvist, Ivan Degtyarenko, Mikko Hakala (Aalto
+  University)</p>
+<p>We will present the computational science done at Aalto University,
+  and the HPC infrastructure supporting this. Our cluster currently
+  has around 550 compute nodes, with a mix of different hardware
+  generations acquired at different points in time.  The cluster is
+  part of the Finnish Grid Initiative (FGI), a consortium of
+  Universities and the national supercomputing center CSC - IT Center
+  for Science, where FGI clusters are accessible to outside users via
+  grid middleware. FGI also has a common base software stack. The
+  funding of the Aalto HPC infrastructure is through a stakeholder
+  model, where University departments using the cluster provide
+  funding and manpower to run it. Currently there are three major
+  departments that provide the core manpower and are responsible for
+  the majority of the usage, but the cluster is also open to other
+  users in the University without funding/manpower requirements as
+  long as use remains moderate.</p>
+<p>The funding model of the cluster results in pressure to show that
+  resource usage is fair among the different departments, and to
+  improve this we developed the ticket-based fairshare algorithm that
+  has been included in upstream SLURM as of version 2.5 (originally
+  called priority/multifactor2). We will present the ticket-based
+  algorithm, and show how it achieves fairness in an account
+  hierarchy.</p>
+<p>We have also developed a wrapper for slurm user commands that some
+  of our users have found easier to use than the "raw" slurm commands
+  when investigating the state of the cluster. The wrapper is purely
+  for read-only commands, so it is always safe to use.</p>
+
+<h3>George Washington University</h3>
+<p>Tim Wickberg (George Washington University)</p>
+<p>In particular, I would expect to elaborate and discuss usage of the
+  fairshare scheduling system, including how it maps to our (slightly
+  convoluted) internal funding model. Additional discussion may
+  include our expected use / abuse of the generic resource scheduling
+  system to dynamically allocate disk space on our test high-IOPS SSD
+  scratch system.</p>
+
+<p style="text-align:center;">Last modified 29 September 2014</p>
+
+<!--#include virtual="footer.txt"-->

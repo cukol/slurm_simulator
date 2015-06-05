@@ -1,0 +1,89 @@
+This simulator is based upon the work of Alejandro Lucero (Barcelona
+SuperComputing Center) as described in the paper "Simulation of batch
+scheduling using real production-ready software tools"
+Slurm User Group Meeting 2011
+http://www.bsc.es/media/4856.pdf
+http://slurm.schedmd.com/slurm_ug_2011/slurm_simulator_phoenix.pdf
+
+NOTE: It would generally be advisable to install the Slurm simulator on a
+desktop system, not a real cluster managed by Slurm.
+
+Build instructions:
+0. Install appropriate infrastructure:
+   mysql-client, mysql-server, mysql-common, libmysqlclient-dev
+   munge, libmunge2, libmunge-dev
+
+   Make sure the mysql database is running and grant the test user access:
+   mysql> create user 'slurm'@'localhost' identified by 'ihatelsf'
+   mysql> grant all privileges on *.* to 'slurm'@'localhost' with grant opt
+
+   Make sure munge is configured and the daemon running.
+
+1. Run configure with the "--enable-simulator" option. For example:
+   ./configure --enable-simulator --prefix=/home/mine/install.sim
+
+2. Build the Slurm daemons and commands:
+   make -j install
+
+3. Build the simulator tools:
+   cd contribs/simulator
+   make -j install
+
+4. Create a subdirectory "tmp" for logs, which can be used by both the Slurm
+   daemons and the simulator. "SIM_DIR" is your install path (the "prefix"
+   specified in step #1):
+   mkdir SIM_DIR/tmp
+
+5. Build your Slurm configuration files as appropriate. Note that a single
+   slurmd daemon will be used for any size cluster (Slurm's "front-end mode").
+   For example (excerpt of SIM_DIR/etc/slurm.conf where "SIM_DIR" is your
+   install path):
+   FrontEndName=my_host
+   NodeName=tux[0-7] Sockets=1 CoresPerSocket=6 CPUs=6 ThreadsPerCore=1
+
+6. Start the slurmdbd program, which creates your database. This command line
+   will start the daemon in the foreground and send output to your terminal.
+   For example:
+   SIM_DIR/sbin/slurmdbd -Dvv
+
+7. Populate your database.
+   Get a copy of the Slurm database from the system you want to emulate:
+   SIM_DIR/bin/sacctmgr -i dump cluster=BASE_NAME file=/tmp/save
+
+   Move the file to your desktop used for testing.
+
+   Load the data into your local database:
+   SIM_DIR/bin/sacctmgr -i load /tmp/save
+
+   Create a file containing user IDs information. The format of the file should
+   be "<user_name>:<user_id>" one per line. The file should be created in
+   SIM_DIR/etc/users.sim. For example:
+   $ cat SIM_DIR/etc/users.sim
+   alan:1000
+   brenda:1001
+
+8. Validate that the slurmctld and slurmd daemons can be executed. These
+   command lines will start the daemons in the foreground and send output to
+   your terminal, so execute each command in its own windew. For example:
+   SIM_DIR/sbin/slurmctld -Dcv
+   SIM_DIR/sbin/slurmd -Dcv
+   SIM_DIR/bin/sinfo
+
+9. Stop the slurmctld and slurmd processes.
+
+10.Start the daemons under the simulator:
+   cd SIM_DIR/sbin
+   ./exec_sim.pl SIM_DIR 100
+
+   This scripts calls the sim_mgr program, which starts slurmctld and slurmd.
+   After 10 seconds or so, run:
+   ps axl | grep slurm
+
+   If you do not see sim_mgr, slurmctld and slurmd programs there's a problem.
+   Check exec_sim.log, sim_mgr.log, slurmcltd.log and slurmd_sim.log files in
+   SIM_DIR/tmp.
+
+   If the simulator runs file, see a log of completed jobs in the file
+   SIM_DIR/tmp/job_comp.log
+
+   Use the program SIMDIR/sbin/list_trace to get a list of launched jobs.
